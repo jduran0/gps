@@ -1,0 +1,2 @@
+Esto es un proyecto que permite el seguimiento en tiempo real de la ubicación geográfica de un dispositivo. Utilizando un módulo GPS Neo-6m V2 conectado a un ESP32, el sistema recopila datos de posición, velocidad y altitud, y los transmite a través de una conexión WiFi a un servidor web. Estos datos son luego visualizados en un mapa interactivo en una interfaz web, permitiendo un seguimiento en tiempo real del dispositivo.
+Utilizando las siguientes librerias: <WiFi.h> <WebSocketsClient.h> <Wire.h>  <TinyGPS++.h> <ArduinoJson.h>
